@@ -1,1 +1,8 @@
 rootProject.name = 'step18_empApp'
+
+buildCache {
+    local {
+        enabled = true
+        directory = "$rootDir/.gradle/caches/build-cache-2"
+    }
+}
